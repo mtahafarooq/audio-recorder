@@ -1,9 +1,9 @@
 import { combineReducers } from "@reduxjs/toolkit";
 
-import { d1Slice } from './d1-slice';
+import { audioSlice } from './audio-slice';
 
 export default combineReducers({
 
-    firstReducer: d1Slice.reducer
+    audio: audioSlice.reducer
 
 })
